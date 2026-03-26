@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+/* body{
+    margin: 0;
+    padding: 0;
+} */
 /* shared styles */
 a{
     text-decoration: none;
@@ -20,10 +24,6 @@ a{
     border: none;
 }
 
-body{
-    background-color: rgba(0, 255, 255, 0.064);
-}
-
 
 /* banner section */
 
@@ -35,6 +35,8 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 
 }
 nav{
@@ -42,6 +44,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px 150px 150px;
+
 }
 header nav h3 a{
     font-weight: bolder;
@@ -66,6 +69,11 @@ header nav h3 a{
 }
 
 /* main section */
+.main-section{
+        background-color: rgba(0, 255, 255, 0.064);
+        margin: 0px;
+        padding: 0px;
+}
 main{
     margin: 0px 140px;
 }
@@ -200,17 +208,6 @@ main{
     margin-bottom: 15px;
     gap: 150px;
 }
-/* .full-form form{
-    margin: 71px 5px 71px 230px;
-} */
-/* .full-form input,textarea{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
-    padding: 10px 150px 5px 5px;
-} */
-
 form .email,.name,.comment-box,.finalbutton{
     margin-bottom: 20px;
 }
@@ -235,3 +232,47 @@ textarea{
 .form-button{
     padding: 20px 360px 20px 32px;
 }
+
+/* footer section */
+footer{
+    background-color: #f6f0f0aa;
+    margin: 0px;
+    padding: 0px;
+}
+footer .all-footer-div{
+    margin: 100px 450px 100px 450px;
+    text-align: center;
+}
+
+.footer-head{
+    font-weight: 900;
+    font-size: 90px;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding: 100px 0px 10px 0px;
+}
+
+.footer-text{
+    /* margin: 100px 450px 10px 450px; */
+}
+.footer-intro{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    text-align: center;
+    padding: 10px;
+}
+.linked nav{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 65px 0px 65px;
+    padding: 10px 0px 100px 0px;
+}
+
