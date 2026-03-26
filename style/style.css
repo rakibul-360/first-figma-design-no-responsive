@@ -161,3 +161,26 @@ main{
     color: #B3B3B3;
 }
 
+/* focus section */
+.focus{
+    margin-top: 140px;
+    align-items: center;
+    text-align: center;
+    background-color: #F2EDED;
+    border-radius: 15px;
+    padding: 70px 150px;
+}
+.focus-intro h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.focus-intro h6{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.focus-image img{
+    border-radius: 48px;
+}
