@@ -20,6 +20,10 @@ a{
     border: none;
 }
 
+body{
+    background-color: rgba(0, 255, 255, 0.064);
+}
+
 
 /* banner section */
 
@@ -183,4 +187,51 @@ main{
 }
 .focus-image img{
     border-radius: 48px;
+}
+
+ /* form section */
+ .form-intro{
+    font-weight: bold;
+    font-size: 60px;
+ }
+.form-section{
+    display: flex;
+    margin-top: 92px;
+    margin-bottom: 15px;
+    gap: 150px;
+}
+/* .full-form form{
+    margin: 71px 5px 71px 230px;
+} */
+/* .full-form input,textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px 150px 5px 5px;
+} */
+
+form .email,.name,.comment-box,.finalbutton{
+    margin-bottom: 20px;
+}
+label{
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    padding: 20px 300px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #757575 ;
+}
+textarea{
+    padding: 20px 230px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #757575 ;
+}
+.form-button{
+    padding: 20px 360px 20px 32px;
 }
