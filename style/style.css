@@ -28,6 +28,7 @@ a{
 /* banner section */
 
 header{
+    display: grid;
     margin: 0%;
     /* height: 100vh; */
     min-height: 100vh;
@@ -70,6 +71,7 @@ header nav h3 a{
 
 /* main section */
 .main-section{
+    display: grid;
         background-color: rgba(0, 255, 255, 0.064);
         margin: 0px;
         padding: 0px;
@@ -235,6 +237,7 @@ textarea{
 
 /* footer section */
 footer{
+    display: grid;
     background-color: #f6f0f0aa;
     margin: 0px;
     padding: 0px;
